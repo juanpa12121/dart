@@ -84,9 +84,11 @@ void listas() {
 
   //Eliminar todos los elementos
   map.clear();
-  print(map); 
+  print(map);
 
-  Map map2 = Map();
+
+  //Declarar map sin valores iniciales
+  Map map2 = {};
   map2[1] = 'Mi valor del map2';
   map2[2] = 'Mi valor2 del map2';
   map2[3] = 'Mi valor3 del map2';
