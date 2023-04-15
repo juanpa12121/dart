@@ -3,7 +3,8 @@ void main(List<String> arguments) {
   //Comentar bloque: alt + shift + a
   print('Hello world: !');
   //variables();
-  listas();
+  //listas();
+  operadores();
 }
 
 void variables() {
@@ -107,4 +108,22 @@ void variablesOtros() {
 
   //const, constante, no varía
   const double inteligencia = 1.2;
+}
+
+void operadores(){
+  //Operadores aritmeticos
+  int a = 8;
+  int b = 9;
+
+  int suma = a+b;
+  print(suma);
+
+  //Operadores relacionales y de igualdad
+  print(1==2);
+  print(2<1);
+
+  //Operadores lógicos: and, or
+  print(2==2 && 1==1);
+  print(1==1 || 3>5);
+
 }
