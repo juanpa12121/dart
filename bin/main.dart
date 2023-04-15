@@ -74,7 +74,7 @@ void listas() {
     print(value);
   });
 
-    //Agregar un elemento
+  //Agregar un elemento
   map.addAll({'apellido': 'Perez'});
   print(map);
 
@@ -86,7 +86,6 @@ void listas() {
   map.clear();
   print(map);
 
-
   //Declarar map sin valores iniciales
   Map map2 = {};
   map2[1] = 'Mi valor del map2';
@@ -94,4 +93,18 @@ void listas() {
   map2[3] = 'Mi valor3 del map2';
   map2.forEach((key, element) => print(element));
   print(map2[1]);
+}
+
+void variablesOtros() {
+  var animal = 'Elefante';
+  String animal2 = 'León';
+
+//Variable que puede tomar cualquier tipo de valor
+  dynamic animal3 = 'Colibrí';
+
+  //final, va a ser constante, no se podrá cambiar
+  final double velocidadJugador = 5.5;
+
+  //const, constante, no varía
+  const double inteligencia = 1.2;
 }
