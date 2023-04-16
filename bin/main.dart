@@ -7,7 +7,8 @@ void main(List<String> arguments) {
   //variables();
   //listas();
   //operadores();
-  sentenciasControlFlujo();
+  //sentenciasControlFlujo();
+  cuentaAhorros();
 }
 
 void variables() {
@@ -182,4 +183,17 @@ void sentenciasControlFlujo() {
 
   //TERNARIO
   (1==1) ? print(true) : print(false);
+}
+
+void cuentaAhorros(){
+  bool isDinero = tengoDinero(5000);
+  print(isDinero);
+}
+
+bool tengoDinero(double dineroCuenta){
+  if(dineroCuenta >0) {
+    return true;
+  } else{
+  return false;
+  }
 }
